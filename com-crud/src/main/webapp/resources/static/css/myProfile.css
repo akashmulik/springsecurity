@@ -1,0 +1,21 @@
+body {
+	background-color: #eaeaea;
+}
+
+hr {
+	margin-top: 0;
+}
+
+img#profImg {
+    width: 150px;
+    height: 150px;
+}
+
+img#signImg {
+    width: 150px;
+    height: 40px;
+}
+
+.modal-header {
+	background-color: #cecece;
+}

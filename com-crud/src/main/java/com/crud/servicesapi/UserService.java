@@ -1,0 +1,26 @@
+package com.crud.servicesapi;
+
+import java.util.List;
+
+import com.crud.entities.LoginBean;
+import com.crud.entities.UsersBean;
+
+public interface UserService {
+
+	public boolean createOrUpdate(UsersBean uBean);
+	
+	public boolean updateUser(UsersBean uBean);
+	
+	public boolean checkDuplicateEmail(String email);
+
+	public List<UsersBean> getAllUsers();
+
+	public boolean deleteUser(LoginBean bean);
+
+	public boolean toggleUserStatus(UsersBean bean);
+
+	public boolean savePhotoSign(UsersBean bean);
+	
+	public UsersBean getUserByEmail(String email);
+
+}

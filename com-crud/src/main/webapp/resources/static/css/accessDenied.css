@@ -1,0 +1,17 @@
+body {
+	background-color: #eaeaea;
+}
+
+.title {
+	font-size: 30;
+}
+
+.text-wrapper {
+	text-align: center;
+}
+
+a.button {
+	font-weight: 600;
+	border-radius: 26px;
+	transition: all 0.2s ease-in-out;
+}
