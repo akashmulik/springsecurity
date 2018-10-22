@@ -212,7 +212,7 @@ public class MainController {
 			e.printStackTrace();
 		}
 		bean.setId(id);
-		if (service.savePhotoSign(bean)) {
+		if (service.savePhotoSign(bean)){
 			return ResponseEntity.ok("success");
 		}
 		return ResponseEntity.ok("error");
