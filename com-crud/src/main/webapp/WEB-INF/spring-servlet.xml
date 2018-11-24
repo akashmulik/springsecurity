@@ -113,7 +113,7 @@ http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 	    <property name="host" value="smtp.gmail.com" />
 	    <property name="port" value="587" />
 	    <property name="username" value="akashmulik39@gmail.com" />
-	    <property name="password" value="izqmgccsvjtnncfr" />
+	    <property name="password" value="gmail-application-password" />
 	 
 	    <property name="javaMailProperties">
 	        <!-- additional properties specific to JavaMail -->
